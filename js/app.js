@@ -91,9 +91,9 @@ while(attempts) {
 }
 
 
-let colorInput= prompt ('What\'s the pin colors are in my pencil case?');
 let colorlist =['green','red','purple','pink'];
 let chances=6;
+let colorInput= prompt ('What\'s the pin colors are in my pencil case?');
 
 while (chances) {
   for (let i=0;i<6;i++){
