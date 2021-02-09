@@ -84,7 +84,7 @@ while(attempts) {
   }
   if (!attempts){ 
     alert(' the correct answer is  15  ' );
-    continue;
+    
    
   }
 
