@@ -6,7 +6,7 @@ let urName = prompt ('what\'s your  name??');
 alert('Hello' + ' ' + urName + ' '+ 'ready for guessing game !! ' );
 alert('Answer with yes[y] or no[n] please');
 
-
+/*
 
 let answers =0;
 
@@ -118,3 +118,4 @@ function guessPin(){
   }
 }
 guessPin();
+*\
