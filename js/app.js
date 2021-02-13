@@ -6,14 +6,14 @@ let urName = prompt ('what\'s your  name??');
 alert('Hello' + ' ' + urName + ' '+ 'ready for guessing game !! ' );
 alert('Answer with yes[y] or no[n] please');
 
-/*
+
 
 let answers =0;
 
 function guessName(){
   let myName = prompt ('what\'s my name ?? is it bayan??');
   if (myName .toLowerCase() ==='yes' || myName .toLowerCase() === 'y' ) {
-  //console.log ('correct');
+
     alert ('correct');
 
     answers = answers + 1;
@@ -26,7 +26,7 @@ guessName();
 function guessColor(){
   let myColor = prompt ('what\'s my favorite color ?? is it yellow??');
   if (myColor .toLowerCase() ==='yes' || myColor .toLowerCase() === 'y' ) {
-  //console.log ('correct');
+
     alert ('correct');
     answers = answers + 1;
 
@@ -38,7 +38,7 @@ guessColor();
 function guessAge(){
   let age = prompt ('what\'s my age ?? is it 25 ??');
   if (age .toLowerCase() === 'yes' || age .toLowerCase() ==='y'){
-  //console.log ('correct');
+
     alert ('correct');
     answers = answers + 1;
   }else {
@@ -50,7 +50,7 @@ guessAge();
 function guessFood(){
   let food = prompt ('what\'s my favorite food ?? is it Mansaf ??');
   if (food .toLowerCase()=== 'yes' || food .toLowerCase() === 'y'){
-  //console.log ('correct');
+
     alert ('correct');
     answers = answers + 1;
   }else{
@@ -61,7 +61,7 @@ guessFood();
 function guessHobby(){
   let hobby = prompt ('what\'s my favorite hobby ?? is it reading??');
   if(hobby .toLowerCase() === 'yes' || hobby .toLowerCase() === 'y'){
-  //console.log ('correct');
+
     alert ('correct');
     answers = answers + 1;
   }else {
@@ -77,7 +77,7 @@ function guessBooks(){
   while(attempts) {
     for(let i=0;i<4;i++){
       if (userGuess==='15'){
-      //console.log('You are correct');
+
         answers = answers + 1;
         alert('You are correct !');
         correct=true;
@@ -102,7 +102,7 @@ function guessPin(){
     for (let i=0;i<6;i++){
       if (colorInput === colorlist[0] || colorInput === colorlist[1] || colorInput === colorlist[2] || colorInput === colorlist[3]  ){
         alert('correct answer!');
-        //console.log("correct");
+
         answers = answers + 1;
         correct=true;
         break;
@@ -118,4 +118,3 @@ function guessPin(){
   }
 }
 guessPin();
-*\
